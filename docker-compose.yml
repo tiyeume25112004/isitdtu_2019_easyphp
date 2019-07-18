@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/isitdtu_2019_easyphp
+    restart: always
+    ports:
+      - 1608:80
