@@ -6,5 +6,7 @@ services:
     build: .
     image: ctftraining/isitdtu_2019_easyphp
     restart: always
+    environment:
+      - FLAG=flag{test_flag}
     ports:
       - 1608:80
